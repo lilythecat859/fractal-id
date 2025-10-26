@@ -1,0 +1,26 @@
+# pubspec.yaml
+name: fractal_wallet
+description: Deterministic fractal visual fingerprint for wallet addresses
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: '>=3.10.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  crypto: ^3.0.3
+  path_provider: ^2.1.1
+  share_plus: ^7.2.1
+  universal_io: ^2.2.2
+  url_strategy: ^0.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
